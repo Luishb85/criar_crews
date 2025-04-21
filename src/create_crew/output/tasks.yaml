@@ -1,0 +1,36 @@
+```yaml
+agente_pesquisador:
+  description: >
+    Realizar uma pesquisa aprofundada sobre tópicos relevantes em Inteligência Artificial Generativa, navegando por bases de dados acadêmicas e publicações científicas. Identificar tendências atuais e coletar informações relevantes e confiáveis.
+  expected_output: >
+    Um relatório detalhado com os tópicos mais relevantes e atuais em Inteligência Artificial Generativa, incluindo referências e dados coletados.
+  agent: > Agente Pesquisador
+
+agente_organizacional:
+  description: >
+    Reunir e organizar os tópicos importantes encontrados pelo Agente Pesquisador, criando um índice lógico e sequencial dos conteúdos relevantes, priorizando os temas conforme sua aplicabilidade no curso.
+  expected_output: >
+    Um índice estruturado de tópicos organizados em categorias lógicas e sequenciais, destacando as prioridades para o conteúdo do curso.
+  agent: > Agente Organizacional
+
+agente_definidor_de_escopo:
+  description: >
+    Definir o escopo do curso, delimitando objetivos de aprendizado, resultados esperados, duração total do curso, carga horária das unidades, público-alvo e pré-requisitos para os alunos.
+  expected_output: >
+    Um documento claro e conciso detalhando o escopo do curso, incluindo objetivos, duração, público-alvo e pré-requisitos.
+  agent: > Agente Definidor de Escopo
+
+agente_criador_de_material:
+  description: >
+    Desenvolver uma apostila abrangente e didática baseada nos tópicos organizados, criando conteúdo textual, gráficos e exercícios práticos, além de revisar e editar o material para garantir qualidade.
+  expected_output: >
+    Um material didático completo e revisado, que seja atraente e compreensível, pronto para ser utilizado no curso.
+  agent: > Agente Criador de Material
+
+agente_de_avaliacao:
+  description: >
+    Garantir a qualidade do curso através de avaliações periódicas, realizando revisões do conteúdo, coletando feedback de potenciais usuários e propondo ajustes baseados em análises de desempenho.
+  expected_output: >
+    Um relatório de avaliação contendo feedback dos usuários, análises de desempenho e recomendações de melhorias para o curso.
+  agent: > Agente de Avaliação
+```
